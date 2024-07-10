@@ -1,0 +1,118 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+/*CONTENIDO DEL TEXTO TRANSPARENTE*/
+/*.carousel-caption {
+	background-color: rgba(0,0,0,0.5);
+	margin-top: 0;
+	
+}
+
+@media only screen and (max-width:750px){
+	.carousel-caption {
+	display: none;
+	background-color: transparent;
+}
+
+}*/
+	
+.navbar-default{
+	background-color: #000000;
+	font: bold;
+	border: 0px;
+	margin-bottom: 0px;
+	border-radius: 0px;
+}  
+
+.navbar{
+	border-radius: 0px;
+
+}
+
+.navbar-default .navbar-nav > li > a{
+	color: #fff;
+	font: bold;
+
+}  
+
+.navbar-default .navbar-nav > li > a:hover {
+	color: #BF5E0A;
+
+}  
+
+.navbar-default .navbar-brand {
+	color: #FFF;
+
+}
+
+.navbar-default .navbar-brand:hover {
+	color: #FFF;
+}
+
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #248A88;
+    background-color: rgba(0, 0, 0, .075);
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > a:hover {
+	color: #BF5E0A;
+
+} 
+
+/*Pie de página 1*/
+.pie01{
+	color: #FFF;
+	background-color: #D05C0D;
+	margin-top: 60px;
+}
+
+.pie01 a{
+	color: #FFF;
+}
+
+.pie01 a:hover{
+	color: #000;
+}
+
+/*Pie de página 2*/
+.pie02{ 
+	color: #FFF;
+	background-color: rgba(0,0,0,1.00);
+	padding: 15px;
+	padding-bottom: 15px;
+	
+}
+
+.menu-fixed{
+	position: fixed;
+	z-index: 1000;
+	top:0;
+	/*left: 0;*/
+	width:100%;
+	/*max-width: 1000px;*/
+	box-shadow:0px 4px 3px rgba(0,0,0,.5);
+}
+
+.menu-fixed ul li a{
+	padding:15px 20px;
+
+}
+
+nav{
+	
+	/*Animación al menu*/
+	-webkit-transition: all ease .5s;
+	-o-transition: all ease .5s;
+	transition: all ease .5s
+
+}
+
+.con_tit::after {
+    content: '';
+    display: block;
+    width: 70px;
+    height: 2px;
+    background: #bb162b;
+    margin-top: 18px;
+}

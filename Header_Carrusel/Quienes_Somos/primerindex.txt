@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quienes Somos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">TAIDOK MOTORS</div>
+        <nav>
+            <ul>
+                <li><a href="#" class="active">Inicio</a></li>
+                <li><a href="#">Quienes Somos</a></li>
+                <li><a href="#">La Empresa</a></li>
+                <li><a href="#">Vehículos</a></li>
+                <li><a href="#">Contáctenos</a></li>
+                <li><a href="#">Administrador</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="container">
+        <div class="H2_QS">
+        <h2>Quienes Somos</h2>
+        <hr>
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="h2_title">
+            <h3>KIA Nicaragua</h3>
+            <p>Innovadores de vehículos están más cerca de los nicaragüenses.
+                <br>El poder de sorprender de la marca KIA con sus modelos.
+            </p>
+       </div>
+    </section>
+
+    <section class="container">
+        <div class="row">
+            <div class="col-md-12 text-left">
+                <img src="/Imagenes/kia-grupocp.jpg" alt="Imagen de Grupo CP" class="img-responsive">
+            </div>
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="row">
+            <div class="col-md-10 text-justify">
+                <p><br><br>
+                    <span class="highlight">"KIA es una marca con diseños de clase mundial, calidad y excelentes precios. Cuenta con una línea completa de vehículos sedan, SUV y camiones de trabajo, razones por las cuales KIPESA decidió convertirse recientemente en el distribuidor exclusivo de la marca KIA en Nicaragua".</span>
+                </p>
+                <p>KIA cuenta con una amplia variedad de modelos como: Picanto, Río Hatchback, Río Sedan, Soul, Sportage, Sorento, K2700 de cabina sencilla 4x2 y 4x4, K2700 doble cabina 4x2 y 4x4 y el K3000. Esta marca que constantemente renueva e innova su línea de vehículos ofrecerá este año al mercado nicaragüense muchas sorpresas.</p>
+                <p>
+                    <span class="highlight">KIA es una marca líder a nivel mundial, con un estilo joven y dinámico, que implementa lo último en tecnología logrando su compromiso de hacer que conducir sea un verdadero placer.</span>
+                    <br><br><br>
+                    <span class="highlight">¡Bienvenido KIA a tu nueva casa!</span>
+                </p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
